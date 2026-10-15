@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_dark"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/space_l">
+
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="@dimen/space_l"
+            android:background="@drawable/bg_logo"
+            android:contentDescription="@string/cd_logo"
+            android:padding="28dp"
+            android:src="@drawable/ic_placeholder" />
+
+        <TextView
+            android:id="@+id/tvSchoolName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_m"
+            android:fontFamily="serif"
+            android:text="@string/school_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_heading"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="serif"
+            android:text="@string/tagline"
+            android:textColor="@color/gold"
+            android:textSize="@dimen/text_body"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/cardLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_l"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:padding="@dimen/card_padding">
+
+            <TextView
+                android:id="@+id/tvLoginTitle"
+                style="@style/SearchIt.Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/login_title" />
+
+            <TextView
+                style="@style/SearchIt.Label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_m"
+                android:labelFor="@+id/etEmail"
+                android:text="@string/login_email_label" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                style="@style/SearchIt.Input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:autofillHints="emailAddress"
+                android:hint="@string/login_email_hint"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                style="@style/SearchIt.Label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_m"
+                android:labelFor="@+id/etPassword"
+                android:text="@string/login_password_label" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                style="@style/SearchIt.Input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:autofillHints="password"
+                android:hint="@string/login_password_hint"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/tvForgotPassword"
+                style="@style/SearchIt.Link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/login_forgot" />
+
+            <Button
+                android:id="@+id/btnLogin"
+                style="@style/SearchIt.Button.Primary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_s"
+                android:text="@string/login_button" />
+
+            <TextView
+                android:id="@+id/tvRegister"
+                style="@style/SearchIt.Link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_s"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/login_register" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

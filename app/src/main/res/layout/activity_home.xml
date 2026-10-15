@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_top_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/gray_bg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/headerSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_gradient"
+                android:orientation="vertical"
+                android:padding="@dimen/space_m">
+
+                <TextView
+                    android:id="@+id/tvHeadline"
+                    style="@style/SearchIt.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_headline"
+                    android:textColor="@color/purple_dark" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/etSearch"
+                        style="@style/SearchIt.Input"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:autofillHints=""
+                        android:hint="@string/home_search_hint"
+                        android:importantForAutofill="no"
+                        android:inputType="text" />
+
+                    <Button
+                        android:id="@+id/btnSearch"
+                        style="@style/SearchIt.Button.Gold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/space_s"
+                        android:text="@string/home_search_button" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvCategoriesTitle"
+                style="@style/SearchIt.Label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space_m"
+                android:text="@string/home_categories"
+                android:textSize="@dimen/text_body" />
+
+            <GridLayout
+                android:id="@+id/gridCategories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+
+                <LinearLayout
+                    android:id="@+id/cardJackets"
+                    style="@style/SearchIt.CategoryCard"
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="6dp"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:id="@+id/ivJackets"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:importantForAccessibility="no"
+                        android:src="@drawable/ic_placeholder"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        style="@style/SearchIt.CategoryLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cat_jackets" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cardWallets"
+                    style="@style/SearchIt.CategoryCard"
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="6dp"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:id="@+id/ivWallets"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:importantForAccessibility="no"
+                        android:src="@drawable/ic_placeholder"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        style="@style/SearchIt.CategoryLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cat_wallets" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cardElectronics"
+                    style="@style/SearchIt.CategoryCard"
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="6dp"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:id="@+id/ivElectronics"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:importantForAccessibility="no"
+                        android:src="@drawable/ic_placeholder"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        style="@style/SearchIt.CategoryLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cat_electronics" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cardTowels"
+                    style="@style/SearchIt.CategoryCard"
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="6dp"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:id="@+id/ivTowels"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:importantForAccessibility="no"
+                        android:src="@drawable/ic_placeholder"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        style="@style/SearchIt.CategoryLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cat_towels" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cardTumbler"
+                    style="@style/SearchIt.CategoryCard"
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="6dp"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:id="@+id/ivTumbler"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:importantForAccessibility="no"
+                        android:src="@drawable/ic_placeholder"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        style="@style/SearchIt.CategoryLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cat_tumbler" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cardMakeup"
+                    style="@style/SearchIt.CategoryCard"
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="6dp"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:id="@+id/ivMakeup"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:importantForAccessibility="no"
+                        android:src="@drawable/ic_placeholder"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        style="@style/SearchIt.CategoryLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cat_makeup" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cardUmbrella"
+                    style="@style/SearchIt.CategoryCard"
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="6dp"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:id="@+id/ivUmbrella"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:importantForAccessibility="no"
+                        android:src="@drawable/ic_placeholder"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        style="@style/SearchIt.CategoryLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cat_umbrella" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cardAccessories"
+                    style="@style/SearchIt.CategoryCard"
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="6dp"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:id="@+id/ivAccessories"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:importantForAccessibility="no"
+                        android:src="@drawable/ic_placeholder"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        style="@style/SearchIt.CategoryLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cat_accessories" />
+                </LinearLayout>
+            </GridLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/space_m"
+                android:paddingEnd="@dimen/space_m"
+                android:paddingBottom="@dimen/space_m">
+
+                <Button
+                    android:id="@+id/btnReport"
+                    style="@style/SearchIt.Button.Gold"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/space_s"
+                    android:layout_weight="1"
+                    android:text="@string/home_report" />
+
+                <Button
+                    android:id="@+id/btnDashboard"
+                    style="@style/SearchIt.Button.Outline"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/space_s"
+                    android:layout_weight="1"
+                    android:text="@string/home_dashboard" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

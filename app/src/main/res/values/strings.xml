@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_dashboard">View dashboard</string>
+
+    <string name="dash_breadcrumb">HOME  /  DASHBOARD</string>
+    <string name="dash_chart_title">Items this week</string>
+    <string name="dash_found">Found</string>
+    <string name="dash_lost">Lost</string>
+    <string name="day_mon">Monday</string>
+    <string name="day_tue">Tuesday</string>
+    <string name="day_wed">Wednesday</string>
+    <string name="day_thu">Thursday</string>
+    <string name="day_fri">Friday</string>
+    <string name="dash_users_title">Recent users</string>
+
+    <string name="user1_name">Luna Valeria</string>
+    <string name="user1_meta">New | Registered: July 22, 2026</string>
+    <string name="user1_item">Pilot G tech 0.4</string>
+    <string name="user2_name">Ashianna Kim Fernandez</string>
+    <string name="user2_meta">Recently | Registered: July 13, 2026</string>
+    <string name="user2_item">Valeria small claw clip</string>
+    <string name="user3_name">Amora Elyse Ledezma</string>
+    <string name="user3_meta">Recently | Registered: July 10, 2026</string>
+    <string name="user3_item">Atomic Habits book</string>
+
+    <string name="app_name">Search It</string>
+
+    <string name="top_title">Search It!</string>
+    <string name="top_profile">Profile ▾</string>
+    <string name="cd_logo">School seal</string>
+
+    <string name="school_name">MANILA CATHEDRAL SCHOOL</string>
+    <string name="tagline">SEARCH IT!</string>
+    <string name="login_title">Welcome back!</string>
+    <string name="login_email_label">Email or phone number</string>
+    <string name="login_email_hint">you@example.com</string>
+    <string name="login_password_label">Password</string>
+    <string name="login_password_hint">Enter your password</string>
+    <string name="login_forgot">Forgot your password?</string>
+    <string name="login_button">Log In</string>
+    <string name="login_register">Need an account? Register</string>
+
+    <string name="home_headline">Find your lost item</string>
+    <string name="home_search_hint">Search for an item</string>
+    <string name="home_search_button">Search</string>
+    <string name="home_categories">Browse by category</string>
+    <string name="home_report">Report a lost item</string>
+    <string name="cat_jackets">Jackets</string>
+    <string name="cat_wallets">Wallets</string>
+    <string name="cat_electronics">Electronics</string>
+    <string name="cat_towels">Hand towels</string>
+    <string name="cat_tumbler">Tumbler</string>
+    <string name="cat_makeup">Makeup</string>
+    <string name="cat_umbrella">Umbrella</string>
+    <string name="cat_accessories">Accessories</string>
+
+    <string name="lost_breadcrumb">HOME  >  LOST ITEM  >  INFORMATION</string>
+    <string name="lost_title">Basic Information</string>
+    <string name="lost_image_label">* Lost item image (1:1)</string>
+    <string name="lost_add_image">Add image</string>
+    <string name="cd_add_image">Add item image</string>
+    <string name="lost_name_label">* Product name</string>
+    <string name="lost_name_hint">Name, brand, color, size, model</string>
+    <string name="lost_desc_label">* Product description</string>
+    <string name="lost_desc_hint">Describe the lost item</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_publish">Publish</string>
+</resources>
