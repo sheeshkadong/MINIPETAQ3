@@ -109,7 +109,7 @@
                 android:text="@string/login_forgot" />
 
             <Button
-                android:id="@+id/btnLogin"
+                android:id="@+id/btnLoggit config --globalin"
                 style="@style/SearchIt.Button.Primary"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

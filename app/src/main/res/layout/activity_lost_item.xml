@@ -144,6 +144,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/space_s"
                         android:layout_weight="1"
+                        android:textColor="@color/white"
                         android:text="@string/btn_cancel" />
 
                     <Button
@@ -153,6 +154,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/space_s"
                         android:layout_weight="1"
+                        android:textColor="@color/white"
                         android:text="@string/btn_publish" />
                 </LinearLayout>
 
