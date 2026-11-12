@@ -12,6 +12,11 @@
     <string name="day_thu">Thursday</string>
     <string name="day_fri">Friday</string>
     <string name="dash_users_title">Recent users</string>
+    <string name="dash_appearance">Appearance</string>
+    <string name="dash_choose_appearance">Choose Appearance</string>
+    <string name="dash_light_mode">Light Mode</string>
+    <string name="dash_dark_mode">Dark Mode</string>
+    <string name="dash_system_default">System Default</string>
 
     <string name="user1_name">Luna Valeria</string>
     <string name="user1_meta">New | Registered: July 22, 2026</string>
@@ -39,6 +44,44 @@
     <string name="login_forgot">Forgot your password?</string>
     <string name="login_button">Log In</string>
     <string name="login_register">Need an account? Register</string>
+    <string name="login_logging_in">Logging in&#8230;</string>
+    <string name="login_enter_email">Enter your email.</string>
+    <string name="login_enter_password">Enter your password.</string>
+    <string name="login_reg_available_soon">Registration will be available soon.</string>
+    <string name="login_successful">Login successful!</string>
+    <string name="login_failed">Login failed.</string>
+    <string name="login_enter_email_first">Enter your email first.</string>
+    <string name="login_reset_email_sent">Password reset email sent.</string>
+    <string name="login_reset_email_unable">Unable to send password reset email.</string>
+
+    <string name="reg_title">MINIPETAQ3</string>
+    <string name="reg_subtitle">Create your account</string>
+    <string name="reg_card_title">Create an account</string>
+    <string name="reg_card_subtitle">Enter your information below to get started.</string>
+    <string name="reg_label_name">FULL NAME</string>
+    <string name="reg_hint_full_name">Your full name</string>
+    <string name="reg_label_email">EMAIL ADDRESS</string>
+    <string name="reg_hint_email_input">Enter your email</string>
+    <string name="reg_label_password">PASSWORD</string>
+    <string name="reg_hint_password_input">Enter a password</string>
+    <string name="reg_label_confirm_password">CONFIRM PASSWORD</string>
+    <string name="reg_hint_confirm_password_input">Confirm your password</string>
+    <string name="reg_hint_name">Full Name</string>
+    <string name="reg_hint_email">Email Address</string>
+    <string name="reg_hint_password">Password</string>
+    <string name="reg_hint_confirm_password">Confirm Password</string>
+    <string name="reg_btn_create">CREATE ACCOUNT</string>
+    <string name="reg_back_to_login">Already have an account? Sign in</string>
+    <string name="reg_enter_name">Enter your full name.</string>
+    <string name="reg_enter_email">Enter your email.</string>
+    <string name="reg_enter_password">Enter a password.</string>
+    <string name="reg_password_min">Password must be at least 6 characters.</string>
+    <string name="reg_password_mismatch">Passwords do not match.</string>
+    <string name="reg_creating_account">Creating account&#8230;</string>
+    <string name="reg_failed">Registration failed.</string>
+    <string name="reg_user_retrieval_failed">Account created, but user information could not be retrieved.</string>
+    <string name="reg_success">Account created successfully!</string>
+    <string name="reg_profile_failed">Your account was created, but your profile could not be saved. Please contact the administrator.</string>
 
     <string name="home_headline">Find your lost item</string>
     <string name="home_search_hint">Search for an item</string>

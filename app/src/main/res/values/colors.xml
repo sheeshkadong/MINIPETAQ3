@@ -16,4 +16,11 @@
     <color name="stroke">#CFCFCF</color>
     <color name="text_dark">#1A1A1A</color>
     <color name="text_gray">#6B6B6B</color>
+
+    <!-- Light and Dark Mode resources -->
+    <color name="screen_background">#F5F1FA</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#6B6B6B</color>
+    <color name="input_background">#E8E8E8</color>
 </resources>

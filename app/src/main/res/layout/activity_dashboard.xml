@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/screen_background"
     android:fitsSystemWindows="true"
     android:orientation="vertical">
 
@@ -34,6 +34,17 @@
             android:background="@drawable/bg_card"
             android:orientation="vertical"
             android:padding="20dp">
+
+            <Button
+                android:id="@+id/btnTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/purple"
+                android:textAllCaps="false"
+                android:text="@string/dash_appearance"
+                android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/tvChartTitle"
@@ -108,6 +119,7 @@
                         android:background="@color/stroke"
                         android:orientation="horizontal"
                         android:weightSum="100">
+
                         <View
                             android:id="@+id/barMonFound"
                             android:layout_width="0dp"
@@ -123,6 +135,7 @@
                         android:background="@color/stroke"
                         android:orientation="horizontal"
                         android:weightSum="100">
+
                         <View
                             android:id="@+id/barMonLost"
                             android:layout_width="0dp"
@@ -161,6 +174,7 @@
                         android:background="@color/stroke"
                         android:orientation="horizontal"
                         android:weightSum="100">
+
                         <View
                             android:id="@+id/barTueFound"
                             android:layout_width="0dp"
@@ -176,6 +190,7 @@
                         android:background="@color/stroke"
                         android:orientation="horizontal"
                         android:weightSum="100">
+
                         <View
                             android:id="@+id/barTueLost"
                             android:layout_width="0dp"
@@ -214,6 +229,7 @@
                         android:background="@color/stroke"
                         android:orientation="horizontal"
                         android:weightSum="100">
+
                         <View
                             android:id="@+id/barWedFound"
                             android:layout_width="0dp"
@@ -229,6 +245,7 @@
                         android:background="@color/stroke"
                         android:orientation="horizontal"
                         android:weightSum="100">
+
                         <View
                             android:id="@+id/barWedLost"
                             android:layout_width="0dp"
@@ -267,6 +284,7 @@
                         android:background="@color/stroke"
                         android:orientation="horizontal"
                         android:weightSum="100">
+
                         <View
                             android:id="@+id/barThuFound"
                             android:layout_width="0dp"
@@ -282,6 +300,7 @@
                         android:background="@color/stroke"
                         android:orientation="horizontal"
                         android:weightSum="100">
+
                         <View
                             android:id="@+id/barThuLost"
                             android:layout_width="0dp"
@@ -320,6 +339,7 @@
                         android:background="@color/stroke"
                         android:orientation="horizontal"
                         android:weightSum="100">
+
                         <View
                             android:id="@+id/barFriFound"
                             android:layout_width="0dp"
@@ -335,6 +355,7 @@
                         android:background="@color/stroke"
                         android:orientation="horizontal"
                         android:weightSum="100">
+
                         <View
                             android:id="@+id/barFriLost"
                             android:layout_width="0dp"
@@ -565,6 +586,7 @@
                     android:src="@drawable/ic_placeholder"
                     tools:ignore="ContentDescription" />
             </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
