@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database name="minipeta.db" version="1">
+    <table name="lost_items">
+        <column name="id" type="INTEGER" primaryKey="true" autoIncrement="true" />
+        <column name="product_name" type="TEXT" notNull="true" />
+        <column name="description" type="TEXT" />
+        <column name="image_uri" type="TEXT" />
+        <column name="status" type="TEXT" notNull="true" default="REPORTED" />
+        <column name="date_reported" type="TEXT" notNull="true" default="CURRENT_TIMESTAMP" />
+    </table>
+</database>
