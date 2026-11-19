@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Primary Colors (Glowing & High Contrast in Dark Mode) -->
+    <color name="purple_dark">#1A1245</color>
+    <color name="purple">#8C6CFF</color>
+    <color name="gold">#F5C858</color>
+
+    <!-- Elevated Dark Surfaces & OLED Backgrounds -->
+    <color name="gray_bg">#0F0E17</color>
+    <color name="white">#1D1B2A</color>
+    <color name="white_pure">#FFFFFF</color>
+    <color name="black">#FFFFFF</color>
+
+    <!-- Borders & Dividers (Subtle Slate Indigo Stroke) -->
+    <color name="stroke">#2E2C44</color>
+
+    <!-- Typography Text Colors (High Contrast Soft Whites) -->
+    <color name="text_dark">#F5F5FA</color>
+    <color name="text_gray">#A09EB8</color>
+
+    <!-- Analytics & Chart Indicators (Vibrant Neon Colors) -->
+    <color name="bar_blue">#5C7CFF</color>
+    <color name="bar_red">#FF5252</color>
+
+    <!-- Material Theme Defaults -->
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#8C6CFF</color>
+    <color name="purple_700">#1A1245</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+</resources>

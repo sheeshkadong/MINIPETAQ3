@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="bar_blue">#4C6FFF</color>
-    <color name="bar_red">#FF3B30</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
+    <!-- Brand Primary Colors -->
     <color name="purple_dark">#2A1A78</color>
     <color name="purple">#6B4BDD</color>
     <color name="gold">#E2BD5F</color>
-    <color name="gray_bg">#E8E8E8</color>
-    <color name="stroke">#CFCFCF</color>
-    <color name="text_dark">#1A1A1A</color>
-    <color name="text_gray">#6B6B6B</color>
+
+    <!-- Surfaces & Backgrounds -->
+    <color name="gray_bg">#F4F5F9</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_pure">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Borders & Dividers -->
+    <color name="stroke">#E0E2EC</color>
+
+    <!-- Typography Text Colors -->
+    <color name="text_dark">#1C1B24</color>
+    <color name="text_gray">#65677A</color>
+
+    <!-- Analytics & Chart Indicators -->
+    <color name="bar_blue">#4C6FFF</color>
+    <color name="bar_red">#FF3B30</color>
+
+    <!-- Material Theme Defaults -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#6B4BDD</color>
+    <color name="purple_700">#2A1A78</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
 </resources>

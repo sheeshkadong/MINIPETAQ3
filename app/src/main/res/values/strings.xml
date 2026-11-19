@@ -2,6 +2,10 @@
 <resources>
     <string name="home_dashboard">View dashboard</string>
 
+    <string name="nav_home">Home</string>
+    <string name="nav_report">Report</string>
+    <string name="nav_dashboard">Dashboard</string>
+
     <string name="dash_breadcrumb">HOME  /  DASHBOARD</string>
     <string name="dash_chart_title">Items this week</string>
     <string name="dash_found">Found</string>
@@ -12,6 +16,13 @@
     <string name="day_thu">Thursday</string>
     <string name="day_fri">Friday</string>
     <string name="dash_users_title">Recent users</string>
+    <string name="dash_appearance">Appearance</string>
+
+    <string name="register_title">Create Account</string>
+    <string name="register_name_label">Full Name</string>
+    <string name="register_name_hint">Enter your full name</string>
+    <string name="register_button">Register</string>
+    <string name="register_login_link">Already have an account? Log In</string>
 
     <string name="user1_name">Luna Valeria</string>
     <string name="user1_meta">New | Registered: July 22, 2026</string>
@@ -41,10 +52,17 @@
     <string name="login_register">Need an account? Register</string>
 
     <string name="home_headline">Find your lost item</string>
-    <string name="home_search_hint">Search for an item</string>
+    <string name="home_search_hint">Pilot G tech 0.4</string>
     <string name="home_search_button">Search</string>
     <string name="home_categories">Browse by category</string>
     <string name="home_report">Report a lost item</string>
+    <string name="link_lost_desc">Lost Item Description</string>
+    <string name="tag_jisulife">Jisulife fan</string>
+    <string name="tag_pabango">Pabango</string>
+    <string name="tag_jujutsu">Jujutsu Kaisen keychain</string>
+    <string name="tag_bagpin">Bag pin</string>
+    <string name="tag_handkerchief">Handkerchief</string>
+
     <string name="cat_jackets">Jackets</string>
     <string name="cat_wallets">Wallets</string>
     <string name="cat_electronics">Electronics</string>
@@ -65,4 +83,6 @@
     <string name="lost_desc_hint">Describe the lost item</string>
     <string name="btn_cancel">Cancel</string>
     <string name="btn_publish">Publish</string>
+    <string name="category_title_format">Category: %s</string>
+    <string name="no_items_found">No missing items found in %s category yet.</string>
 </resources>
